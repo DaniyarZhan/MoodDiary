@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MoodDiary</string>
+
+    <string name="writeLogin">Введите логин</string>
+    <string name="writePassword">Введите пароль</string>
+    <string name="writePasswordRepeat">Повторите пароль</string>
+
+    <string name="textAuthorize">Авторизация</string>
+    <string name="buttonAuth">Войти</string>
+    <string name="otherTextInReg">Нет аккаунта?</string>
+    <string name="buttonInRegister">Зарегистрироваться</string>
+
+    <string name="textRegister">Регистрация</string>
+    <string name="buttonReg">Создать аккаунт</string>
+    <string name="otherTextInAuth">Есть аккаунт?</string>
+    <string name="buttonInAuth">Войти</string>
+
 </resources>

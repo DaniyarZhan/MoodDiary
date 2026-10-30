@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -13,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Авторизация"
+        android:text="@string/textAuthorize"
         android:textSize="20sp"/>
 
     <EditText
@@ -21,7 +20,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Введите логин"
+        android:autofillHints=""
+        android:hint="@string/writeLogin"
         android:inputType="text"
         android:textSize="20sp"/>
 
@@ -30,7 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Введите пароль"
+        android:autofillHints=""
+        android:hint="@string/writePassword"
         android:inputType="textPassword"
         android:textSize="20sp"/>
 
@@ -40,20 +41,20 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_gravity="center"
-        android:text="Войти"
+        android:text="@string/buttonAuth"
         android:textSize="20sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Нет аккаунта?"/>
+        android:hint="@string/otherTextInReg"/>
     <Button
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Зарегистрироваться"
+        android:text="@string/buttonInRegister"
         android:textSize="20sp"/>
 
 </LinearLayout>

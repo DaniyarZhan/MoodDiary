@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -13,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="Регистрация"
+        android:text="@string/textRegister"
         android:textSize="20sp"/>
 
     <EditText
@@ -21,7 +20,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Введите логин"
+        android:autofillHints=""
+        android:hint="@string/writeLogin"
         android:inputType="text"
         android:textSize="20sp"/>
 
@@ -30,7 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Введите пароль"
+        android:autofillHints=""
+        android:hint="@string/writePassword"
         android:inputType="textPassword"
         android:textSize="20sp"/>
 
@@ -39,7 +40,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Повторите пароль"
+        android:autofillHints=""
+        android:hint="@string/writePasswordRepeat"
         android:inputType="textPassword"
         android:textSize="20sp"/>
 
@@ -49,20 +51,20 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20sp"
-        android:text="Зарегистрироваться"
+        android:text="@string/buttonReg"
         android:textSize="20sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Есть аккаунт?"/>
+        android:hint="@string/otherTextInAuth"/>
     <Button
         android:id="@+id/authorize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Войти"
+        android:text="@string/buttonInAuth"
         android:textSize="20sp"/>
 
 </LinearLayout>
