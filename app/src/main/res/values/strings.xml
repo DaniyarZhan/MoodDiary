@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MoodDiary</string>
+    <string name="app_name">Дневник настроения</string>
 
     <string name="writeLogin">Введите логин</string>
     <string name="writePassword">Введите пароль</string>
