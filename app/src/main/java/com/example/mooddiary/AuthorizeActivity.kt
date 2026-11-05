@@ -12,9 +12,7 @@ class AuthorizeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_authorize)
         val onRegister : Button = findViewById(R.id.register)
         val Authorize : Button= findViewById(R.id.authorize)
-
     }
-
     /* Метод для перехода в другое окно,
     а именно в окно регистрации
      */
