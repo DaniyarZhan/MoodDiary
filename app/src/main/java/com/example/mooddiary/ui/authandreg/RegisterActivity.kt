@@ -1,10 +1,11 @@
-package com.example.mooddiary
+package com.example.mooddiary.ui.authandreg
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mooddiary.R
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -12,7 +13,7 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
         val Register : Button = findViewById(R.id.register)
-        val onAuthorize : Button= findViewById(R.id.authorize)
+        val onAuthorize : Button = findViewById(R.id.authorize)
     }
 
     /* Метод для перехода в другое окно,

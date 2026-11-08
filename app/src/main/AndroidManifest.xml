@@ -26,11 +26,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ui.authandreg.RegisterActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".AuthorizeActivity"
+            android:name=".ui.authandreg.AuthorizeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
