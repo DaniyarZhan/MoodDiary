@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -16,7 +15,7 @@
         android:textSize="20sp"/>
 
     <EditText
-        android:id="@+id/login"
+        android:id="@+id/login_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -26,7 +25,7 @@
         android:textSize="20sp"/>
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/password_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -36,7 +35,7 @@
         android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/authorize"
+        android:id="@+id/authorize_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -51,7 +50,7 @@
         android:hint="@string/otherTextInReg"/>
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/register_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
