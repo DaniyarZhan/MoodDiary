@@ -1,14 +1,17 @@
 package com.example.mooddiary.ui.authandreg
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mooddiary.IntentActivity
+import com.example.mooddiary.utils.IntentActivities
 import com.example.mooddiary.R
+import com.example.mooddiary.utils.MediaPlay
 
+/**
+ * Активность регистрационного окна
+ */
 class RegisterActivity : AppCompatActivity() {
 
     /**
@@ -18,6 +21,22 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
         setup()
+    }
+
+    /**
+     * Переопределенный метод для работы с медиаплеером
+     */
+    override fun onResume() {
+        super.onResume()
+        MediaPlay.start()
+    }
+
+    /**
+     * Переопределенный метод для работы с медиаплеером
+     */
+    override fun onPause() {
+        super.onPause()
+        MediaPlay.pause()
     }
 
     /**
@@ -37,6 +56,6 @@ class RegisterActivity : AppCompatActivity() {
      *  а именно в окно авторизации (входа)
      */
     fun onActivityAuthorize(view: View) {
-        IntentActivity.intentHelper(this, AuthorizeActivity::class.java)
+        IntentActivities.intentHelper(this, AuthorizeActivity::class.java)
     }
 }

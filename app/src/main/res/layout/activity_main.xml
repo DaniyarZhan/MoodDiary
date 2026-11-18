@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:onClick="onActivityAuthorize"
-            android:text="@string/textAuthorize"/>
+            android:text="@string/text_authorize"/>
 
         <Button
             android:backgroundTint="#FFC107"
@@ -51,6 +51,6 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:onClick="onActivityRegister"
-            android:text="@string/textRegister"/>
+            android:text="@string/text_register"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">Дневник настроения</string>
 
-    <string name="writeLogin">Введите логин</string>
-    <string name="writePassword">Введите пароль</string>
-    <string name="writePasswordRepeat">Повторите пароль</string>
+    <string name="write_login">Введите логин</string>
+    <string name="write_password">Введите пароль</string>
+    <string name="write_password_repeat">Повторите пароль</string>
 
-    <string name="textAuthorize">Авторизация</string>
-    <string name="buttonAuth">Войти</string>
-    <string name="otherTextInReg">Нет аккаунта?</string>
-    <string name="buttonInRegister">Зарегистрироваться</string>
+    <string name="text_authorize">Авторизация</string>
+    <string name="button_auth">Войти</string>
+    <string name="other_text_in_reg">Нет аккаунта?</string>
+    <string name="button_in_reg">Зарегистрироваться</string>
 
-    <string name="textRegister">Регистрация</string>
-    <string name="buttonReg">Создать аккаунт</string>
-    <string name="otherTextInAuth">Есть аккаунт?</string>
-    <string name="buttonInAuth">Войти</string>
+    <string name="text_register">Регистрация</string>
+    <string name="button_reg">Создать аккаунт</string>
+    <string name="other_text_in_auth">Есть аккаунт?</string>
+    <string name="button_in_auth">Войти</string>
 
 </resources>

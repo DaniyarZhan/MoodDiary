@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="@string/textAuthorize"
+        android:text="@string/text_authorize"
         android:textSize="20sp"/>
 
     <EditText
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:autofillHints=""
-        android:hint="@string/writeLogin"
+        android:hint="@string/write_login"
         android:inputType="text"
         android:textSize="20sp"/>
 
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:autofillHints=""
-        android:hint="@string/writePassword"
+        android:hint="@string/write_password"
         android:inputType="textPassword"
         android:textSize="20sp"/>
 
@@ -40,14 +40,14 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_gravity="center"
-        android:text="@string/buttonAuth"
+        android:text="@string/button_auth"
         android:textSize="20sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="@string/otherTextInReg"/>
+        android:hint="@string/other_text_in_reg"/>
 
     <Button
         android:id="@+id/register_button"
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onActivityRegister"
-        android:text="@string/buttonInRegister"
+        android:text="@string/button_in_reg"
         android:textSize="20sp"/>
 
 </LinearLayout>

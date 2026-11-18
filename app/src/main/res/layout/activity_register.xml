@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="@string/textRegister"
+        android:text="@string/text_register"
         android:textSize="20sp"/>
 
     <EditText
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:autofillHints=""
-        android:hint="@string/writeLogin"
+        android:hint="@string/write_login"
         android:inputType="text"
         android:textSize="20sp"/>
 
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:autofillHints=""
-        android:hint="@string/writePassword"
+        android:hint="@string/write_password"
         android:inputType="textPassword"
         android:textSize="20sp"/>
 
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:autofillHints=""
-        android:hint="@string/writePasswordRepeat"
+        android:hint="@string/write_password_repeat"
         android:inputType="textPassword"
         android:textSize="20sp"/>
 
@@ -50,14 +50,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20sp"
-        android:text="@string/buttonReg"
+        android:text="@string/button_reg"
         android:textSize="20sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="@string/otherTextInAuth"/>
+        android:hint="@string/other_text_in_auth"/>
 
     <Button
         android:id="@+id/authorize_button"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onActivityAuthorize"
-        android:text="@string/buttonInAuth"
+        android:text="@string/button_in_auth"
         android:textSize="20sp"/>
 
 </LinearLayout>
