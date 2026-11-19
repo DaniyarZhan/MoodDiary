@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="@string/text_authorize"
-        android:textSize="20sp"/>
+        style="@style/TitleText"
+        android:text="@string/text_authorize"/>
 
     <EditText
         android:id="@+id/login_edit_text"
